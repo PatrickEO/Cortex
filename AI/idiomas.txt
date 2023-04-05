@@ -1,0 +1,235 @@
+"af"
+"ar"
+"az"
+"be"
+"bg"
+"bn"
+"ca"
+"cs"
+"da"
+"en"
+"eo"
+"es"
+"et"
+"eu"
+"fa"
+"ga"
+"hr"
+"it"
+"ja"
+"kn"
+"ko"
+"la"
+"lt"
+"lv"
+"mk"
+"ms"
+"mt"
+"nl"
+"no"
+"pl"
+"pt"
+"ro"
+"ru"
+"sq"
+"zh-CN"
+"zh-TW"
+
+
+Afrikaans
+Irish
+Albanian
+Italian
+Arabic
+Japanese
+Azerbaijani
+Kannada
+Basque
+Korean
+Bengali
+Latin
+Belarusian
+Latvian
+Bulgarian
+Lithuanian
+Catalan
+Macedonian
+Chinese Simplified
+Malay
+Chinese Traditional
+Maltese	
+Croatian
+Norwegian
+Czech
+Persian
+Danish
+Polish
+Dutch
+Portuguese
+English
+Romanian
+Esperanto
+Russian
+Estonian
+Serbian
+Filipino
+Slovak
+Finnish
+Slovenian
+French
+Spanish
+Galician
+Swahili
+Georgian
+Swedish
+German
+Tamil
+Greek
+Telugu
+Gujarati
+Thai
+Haitian Creole
+Turkish
+Hebrew
+Ukrainian
+Hindi
+Urdu
+Hungarian
+Vietnamese
+Icelandic
+Welsh
+Indonesian
+Yiddish
+
+===========================
+af
+ar
+az
+be
+bg
+bn
+ca
+cs
+cy
+da
+de
+el
+en
+eo
+es
+et
+eu
+fa
+fi
+fr
+ga
+gl
+gu
+hi
+hr
+ht
+hu
+id
+is
+it
+iw
+ja
+ka
+kn
+ko
+la
+lt
+lv
+mk
+ms
+mt
+nl
+no
+pl
+pt
+ro
+ru
+sk
+sl
+sq
+sr
+sv
+sw
+ta
+te
+th
+tl
+tr
+uk
+ur
+vi
+yi
+zh-CN
+zh-TW
+============================
+
+
+Afrikaans	af
+Irish	ga
+Albanian	sq
+Italian	it
+Arabic	ar
+Japanese	ja
+Azerbaijani	az
+Kannada	kn
+Basque	eu
+Korean	ko
+Bengali	bn
+Latin	la
+Belarusian	be
+Latvian	lv
+Bulgarian	bg
+Lithuanian	lt
+Catalan	ca
+Macedonian	mk
+Chinese Simplified	zh-CN
+Malay	ms
+Chinese Traditional	zh-TW
+Maltese	mt
+Croatian	hr
+Norwegian	no
+Czech	cs
+Persian	fa
+Danish	da
+Polish	pl
+Dutch	nl
+Portuguese	pt
+English	en
+Romanian	ro
+Esperanto	eo
+Russian	ru
+Estonian	et
+Serbian	sr
+Filipino	tl
+Slovak	sk
+Finnish	fi
+Slovenian	sl
+French	fr
+Spanish	es
+Galician	gl
+Swahili	sw
+Georgian	ka
+Swedish	sv
+German	de
+Tamil	ta
+Greek	el
+Telugu	te
+Gujarati	gu
+Thai	th
+Haitian Creole	ht
+Turkish	tr
+Hebrew	iw
+Ukrainian	uk
+Hindi	hi
+Urdu	ur
+Hungarian	hu
+Vietnamese	vi
+Icelandic	is
+Welsh	cy
+Indonesian	id
+Yiddish	yi
