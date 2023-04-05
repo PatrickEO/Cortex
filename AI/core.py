@@ -41,6 +41,7 @@ def load():
 
         option = input(str(system_text["Menu"].get("B")))
         if option == "0":
+            clear()
             exit
         elif option == "1":
             _create_audio()
@@ -216,15 +217,15 @@ def load():
             sdata = json.load(f)
             size = len(sdata["audio_list"])
             while size:
-                    if size <= 0:
-                        menu("")
-                        break
-                    elif size > 0:
-                        playsound(sdata["audio_list"].__getitem__(0))
-                        os.remove(sdata["audio_list"].__getitem__(0))
-                        sdata["audio_list"].remove(sdata["audio_list"].__getitem__(0))
-                        with open("save.json","w") as f:
-                            json.dump(sdata,f)
+                if size <= 0:
+                    menu("")
+                    break
+                elif size > 0:
+                    playsound(sdata["audio_list"].__getitem__(0))
+                    os.remove(sdata["audio_list"].__getitem__(0))
+                    sdata["audio_list"].remove(sdata["audio_list"].__getitem__(0))
+                    with open("save.json","w") as f:
+                        json.dump(sdata,f)
             else:
                 menu("")
         menu("")
@@ -250,23 +251,23 @@ def load():
                             menu("")
                         elif regions.get(settings_language).get(settings_region):
                             with open("config.json","r") as f:
-                                        cfg_data = json.load(f)
-                                        cfg_data["SystemLanguage"] = str(settings_language+"-"+settings_region)
-                                        with open("config.json", "w") as f:
-                                            json.dump(cfg_data, f)
-                                            f.close()
-                                            menu("")
+                                cfg_data = json.load(f)
+                                cfg_data["SystemLanguage"] = str(settings_language+"-"+settings_region)
+                                with open("config.json", "w") as f:
+                                    json.dump(cfg_data, f)
+                                    f.close()
+                                    menu("")
                         else:
                             errormsg = str("!ERROR! - "+str(system_text["Settings"].get("error2")))
                             menu(errormsg)
                     else:
                         with open("config.json","r") as f:
-                                        cfg_data = json.load(f)
-                                        cfg_data["SystemLanguage"] = str(settings_language)
-                                        with open("config.json", "w") as f:
-                                            json.dump(cfg_data, f)
-                                            f.close()
-                                            menu("")
+                            cfg_data = json.load(f)
+                            cfg_data["SystemLanguage"] = str(settings_language)
+                            with open("config.json", "w") as f:
+                                json.dump(cfg_data, f)
+                                f.close()
+                                menu("")
                 else:
                     errormsg = str("!ERROR! - "+str(system_text["Settings"].get("error1")))
                     menu(errormsg)
@@ -282,30 +283,30 @@ def load():
                     if settings_path_choice == "1":
                         settings_path_language = str(input(str(system_text["Settings"].get("A"))))
                         with open("config.json","r") as f:
-                                        lp_cfg_data = json.load(f)
-                                        lp_cfg_data["LanguagePath"] = str(settings_path_language)
-                                        with open("config.json", "w") as f:
-                                            json.dump(lp_cfg_data, f)
-                                            f.close()
-                                            menu("")
+                            lp_cfg_data = json.load(f)
+                            lp_cfg_data["LanguagePath"] = str(settings_path_language)
+                            with open("config.json", "w") as f:
+                                json.dump(lp_cfg_data, f)
+                                f.close()
+                                menu("")
                     elif settings_path_choice == "2":
                         settings_path_temp = str(input(str(system_text["Settings"].get("A"))))
                         with open("config.json","r") as f:
-                                        tmp_cfg_data = json.load(f)
-                                        tmp_cfg_data["TempPath"] = str(settings_path_temp)
-                                        with open("config.json", "w") as f:
-                                            json.dump(tmp_cfg_data, f)
-                                            f.close()
-                                            menu("")
+                            tmp_cfg_data = json.load(f)
+                            tmp_cfg_data["TempPath"] = str(settings_path_temp)
+                            with open("config.json", "w") as f:
+                                json.dump(tmp_cfg_data, f)
+                                f.close()
+                                menu("")
                     elif settings_path_choice == "3":
                         settings_path_audio = str(input(str(system_text["Settings"].get("A"))))
                         with open("config.json","r") as f:
-                                        audio_cfg_data = json.load(f)
-                                        audio_cfg_data["AudioPath"] = str(settings_path_audio)
-                                        with open("config.json", "w") as f:
-                                            json.dump(audio_cfg_data, f)
-                                            f.close()
-                                            menu("")
+                            audio_cfg_data = json.load(f)
+                            audio_cfg_data["AudioPath"] = str(settings_path_audio)
+                            with open("config.json", "w") as f:
+                                json.dump(audio_cfg_data, f)
+                                f.close()
+                                menu("")
                 else:
                     errormsg = str("!ERROR! - "+str(system_text["Settings"].get("error0")))
                     menu(errormsg)
